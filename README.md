@@ -13,8 +13,8 @@ The code has been tested on Ubuntu 16.04 using a single A100 GPU.
 <br>
 
 ## Explanations
-- ./ckpts: the saved checkpoints on multiple runs 
-- ./data: preprocessed datasets and features
+- ./ckpts: the saved checkpoints on multiple runs ([download link](https://pan.baidu.com/s/1u-019i_gwc4oNRwOAgrVLw) extraction code: tvds)
+- ./data: preprocessed datasets and features ([download link](https://pan.baidu.com/s/1HKjrJBW11ANY0sRW7gNamw) extraction code: mqvz)
 - ./logs: training log
 
 
