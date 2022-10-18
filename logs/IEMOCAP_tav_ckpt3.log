@@ -1,0 +1,123 @@
+nohup: ignoring input
+Namespace(batch_size=16, dataset_name='IEMOCAP', epochs=50, gnn_layers=4, hidden_dim=300, lr=0.0005, mlp_layers=2, modality='tav', tau=0.2)
+device: cuda
+building model..
+building datasets..
+train dialogue num:
+108
+train utterance num:
+5163
+building datasets..
+dev dialogue num:
+12
+dev utterance num:
+647
+building datasets..
+test dialogue num:
+31
+test utterance num:
+1623
+==========Epoch: 1 ==============
+Epoch: 1, train_loss: 1.6696, valid_waf1: 0.34830760955810547, test_waf1: 0.41921067237854004
+==========Epoch: 2 ==============
+Epoch: 2, train_loss: 1.2235, valid_waf1: 0.43546122312545776, test_waf1: 0.4480994641780853
+==========Epoch: 3 ==============
+Epoch: 3, train_loss: 1.055, valid_waf1: 0.5239037275314331, test_waf1: 0.5440539717674255
+==========Epoch: 4 ==============
+Epoch: 4, train_loss: 0.9078, valid_waf1: 0.5189256072044373, test_waf1: 0.5422868728637695
+==========Epoch: 5 ==============
+Epoch: 5, train_loss: 0.8727, valid_waf1: 0.4849599599838257, test_waf1: 0.5604096055030823
+==========Epoch: 6 ==============
+Epoch: 6, train_loss: 0.8301, valid_waf1: 0.5554134249687195, test_waf1: 0.5690504908561707
+==========Epoch: 7 ==============
+Epoch: 7, train_loss: 0.8147, valid_waf1: 0.5600945353507996, test_waf1: 0.6014799475669861
+==========Epoch: 8 ==============
+Epoch: 8, train_loss: 0.7904, valid_waf1: 0.5791690945625305, test_waf1: 0.5811170339584351
+==========Epoch: 9 ==============
+Epoch: 9, train_loss: 0.7342, valid_waf1: 0.5624944567680359, test_waf1: 0.6215813159942627
+==========Epoch: 10 ==============
+Epoch: 10, train_loss: 0.7442, valid_waf1: 0.5905765891075134, test_waf1: 0.6199638843536377
+==========Epoch: 11 ==============
+Epoch: 11, train_loss: 0.7005, valid_waf1: 0.6000286936759949, test_waf1: 0.6133684515953064
+==========Epoch: 12 ==============
+Epoch: 12, train_loss: 0.7239, valid_waf1: 0.6110372543334961, test_waf1: 0.6308611631393433
+==========Epoch: 13 ==============
+Epoch: 13, train_loss: 0.6935, valid_waf1: 0.5625067949295044, test_waf1: 0.6214430928230286
+==========Epoch: 14 ==============
+Epoch: 14, train_loss: 0.6776, valid_waf1: 0.6179512143135071, test_waf1: 0.6445006132125854
+==========Epoch: 15 ==============
+Epoch: 15, train_loss: 0.6451, valid_waf1: 0.6159510612487793, test_waf1: 0.6538338661193848
+==========Epoch: 16 ==============
+Epoch: 16, train_loss: 0.6132, valid_waf1: 0.6233431696891785, test_waf1: 0.6716455221176147
+==========Epoch: 17 ==============
+Epoch: 17, train_loss: 0.6166, valid_waf1: 0.5912606716156006, test_waf1: 0.6564843654632568
+==========Epoch: 18 ==============
+Epoch: 18, train_loss: 0.6327, valid_waf1: 0.6468476057052612, test_waf1: 0.6575122475624084
+==========Epoch: 19 ==============
+Epoch: 19, train_loss: 0.5962, valid_waf1: 0.6136480569839478, test_waf1: 0.6688508987426758
+==========Epoch: 20 ==============
+Epoch: 20, train_loss: 0.6052, valid_waf1: 0.6089212894439697, test_waf1: 0.6735394597053528
+==========Epoch: 21 ==============
+Epoch: 21, train_loss: 0.5987, valid_waf1: 0.6197242140769958, test_waf1: 0.6644928455352783
+==========Epoch: 22 ==============
+Epoch: 22, train_loss: 0.5946, valid_waf1: 0.637638509273529, test_waf1: 0.6494110226631165
+==========Epoch: 23 ==============
+Epoch: 23, train_loss: 0.5964, valid_waf1: 0.6493683457374573, test_waf1: 0.6771172285079956
+==========Epoch: 24 ==============
+Epoch: 24, train_loss: 0.5549, valid_waf1: 0.6158896684646606, test_waf1: 0.6613909602165222
+==========Epoch: 25 ==============
+Epoch: 25, train_loss: 0.5427, valid_waf1: 0.6635533571243286, test_waf1: 0.6855568885803223
+==========Epoch: 26 ==============
+Epoch: 26, train_loss: 0.5363, valid_waf1: 0.5918391346931458, test_waf1: 0.6549696922302246
+==========Epoch: 27 ==============
+Epoch: 27, train_loss: 0.5294, valid_waf1: 0.6358086466789246, test_waf1: 0.6959205865859985
+==========Epoch: 28 ==============
+Epoch: 28, train_loss: 0.519, valid_waf1: 0.6707704663276672, test_waf1: 0.6833093166351318
+==========Epoch: 29 ==============
+Epoch: 29, train_loss: 0.5159, valid_waf1: 0.5977134704589844, test_waf1: 0.6903391480445862
+==========Epoch: 30 ==============
+Epoch: 30, train_loss: 0.4835, valid_waf1: 0.6706229448318481, test_waf1: 0.690864086151123
+==========Epoch: 31 ==============
+Epoch: 31, train_loss: 0.4748, valid_waf1: 0.6772142052650452, test_waf1: 0.7168236970901489
+==========Epoch: 32 ==============
+Epoch: 32, train_loss: 0.4881, valid_waf1: 0.6230312585830688, test_waf1: 0.6991376876831055
+==========Epoch: 33 ==============
+Epoch: 33, train_loss: 0.4684, valid_waf1: 0.618665337562561, test_waf1: 0.7069458365440369
+==========Epoch: 34 ==============
+Epoch: 34, train_loss: 0.4537, valid_waf1: 0.650841236114502, test_waf1: 0.7073720097541809
+==========Epoch: 35 ==============
+Epoch: 35, train_loss: 0.4445, valid_waf1: 0.6519263982772827, test_waf1: 0.71546471118927
+==========Epoch: 36 ==============
+Epoch: 36, train_loss: 0.4141, valid_waf1: 0.6558927297592163, test_waf1: 0.7089064121246338
+==========Epoch: 37 ==============
+Epoch: 37, train_loss: 0.4213, valid_waf1: 0.6452426910400391, test_waf1: 0.708236813545227
+==========Epoch: 38 ==============
+Epoch: 38, train_loss: 0.3944, valid_waf1: 0.5985961556434631, test_waf1: 0.7023689150810242
+==========Epoch: 39 ==============
+Epoch: 39, train_loss: 0.4076, valid_waf1: 0.619979202747345, test_waf1: 0.7191473245620728
+==========Epoch: 40 ==============
+Epoch: 40, train_loss: 0.3772, valid_waf1: 0.614139199256897, test_waf1: 0.7150825262069702
+==========Epoch: 41 ==============
+Epoch: 41, train_loss: 0.3892, valid_waf1: 0.6115410923957825, test_waf1: 0.7112130522727966
+==========Epoch: 42 ==============
+Epoch: 42, train_loss: 0.3576, valid_waf1: 0.6228305101394653, test_waf1: 0.7156208753585815
+==========Epoch: 43 ==============
+Epoch: 43, train_loss: 0.3384, valid_waf1: 0.6203319430351257, test_waf1: 0.714759886264801
+==========Epoch: 44 ==============
+Epoch: 44, train_loss: 0.339, valid_waf1: 0.6254442930221558, test_waf1: 0.7179922461509705
+==========Epoch: 45 ==============
+Epoch: 45, train_loss: 0.3207, valid_waf1: 0.6045053005218506, test_waf1: 0.6697374582290649
+==========Epoch: 46 ==============
+Epoch: 46, train_loss: 0.3642, valid_waf1: 0.5514509081840515, test_waf1: 0.6776888370513916
+==========Epoch: 47 ==============
+Epoch: 47, train_loss: 0.3518, valid_waf1: 0.6397161483764648, test_waf1: 0.7110828757286072
+==========Epoch: 48 ==============
+Epoch: 48, train_loss: 0.3424, valid_waf1: 0.5874608159065247, test_waf1: 0.7039175629615784
+==========Epoch: 49 ==============
+Epoch: 49, train_loss: 0.3269, valid_waf1: 0.6073217988014221, test_waf1: 0.6811392903327942
+==========Epoch: 50 ==============
+Epoch: 50, train_loss: 0.3263, valid_waf1: 0.6494085788726807, test_waf1: 0.7063655257225037
+The best dev set WA.F1:0.6772142052650452
+************final performance on test set************
+The corresponding test set WA.F1 when the dev set WA.F1 is the best:0.7168236970901489
+finish training!
